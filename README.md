@@ -1,6 +1,6 @@
 # LoginScreen
 
-**App Loading Page using Gradle**
+**App Loading Page using Splash**
 
 <img src="img/app_loading.jpg" width="50%">
 
