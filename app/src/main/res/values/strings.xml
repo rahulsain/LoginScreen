@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LoginScreen</string>
+    <string name="splash_logo_name">SAINGame</string>
+    <string name="login_name">Login</string>
+    <string name="login_user">USERNAME</string>
+    <string name="login_pass">PASSWORD</string>
+    <string name="login_sub">ENTER</string>
+    <string name="login_for_pass">Forget Password</string>
+    <string name="login_reg">Register Now</string>
+    <string name="empty_todo">TODO</string>
+    <string name="hint">abcd@domain.com</string>
+    <string name="enter_password">Enter your password</string>
+</resources>
