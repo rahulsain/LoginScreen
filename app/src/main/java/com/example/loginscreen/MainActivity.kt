@@ -1,5 +1,6 @@
 package com.example.loginscreen
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
@@ -25,5 +26,10 @@ class MainActivity : AppCompatActivity() {
         rellay2 = findViewById<View>(R.id.rellay2) as RelativeLayout
 
         handler.postDelayed(runnable,3000)
+
+
+        btn_forgot_password.setOnClickListener {
+            startActivity(Intent(this@MainActivity, ForgotPasswordActivity::class.java))
+        }
     }
 }
