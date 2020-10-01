@@ -27,6 +27,9 @@ class MainActivity : AppCompatActivity() {
 
         handler.postDelayed(runnable,3000)
 
+        btn_forgot_password.setOnClickListener {
+            startActivity(Intent(this@MainActivity, ForgotPasswordActivity::class.java))
+        }
         btn_register.setOnClickListener {
             startActivity(Intent(this@MainActivity, RegisterActivity::class.java))
         }

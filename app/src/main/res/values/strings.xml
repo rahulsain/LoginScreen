@@ -11,6 +11,7 @@
     <string name="hint">abcd@domain.com</string>
     <string name="username">username</string>
     <string name="enter_password">Enter your password</string>
+    <string name="forgot_password_sub">RESET</string>
     <string name="confirm_password">Confirm your password</string>
     <string name="register_sub">REGISTER</string>
 </resources>
